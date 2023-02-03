@@ -1,16 +1,20 @@
-### Hi there 👋
-
-<!--
-**KDD-2023-PE/KDD-2023-PE** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Running the Code
+- Create the virtual environment
+```
+virtualenv pevenv --python=python3.8
+. pevenv/bin/activate
+```
+- Install required packages
+```
+cd pseudo_edge
+pip install -r requirements.txt
+```
+- Create following folders:
+```
+mkdir best_model
+mkdir best_pl_model
+```
+- To reproduce *Pseudo-Edge w/GCN* performance on OGBL-COLLAB, run the following script:
+```
+bash run.sh
+```
