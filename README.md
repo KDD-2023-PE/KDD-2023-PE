@@ -14,7 +14,7 @@ pip install -r requirements.txt
 mkdir best_model
 mkdir best_pl_model
 ```
-- Download edge candidates file and best pesudo-labels folder [here](https://drive.google.com/drive/folders/1eOSb-z-KqckXoG45zcCvFP3tecgiH093?usp=sharing). Place the downloaded data along with other files.
+- Download edge candidates file and best pesudo-labels folder [here](https://drive.google.com/drive/folders/1QMc78I-w1rWg6Gw2y1Yzby8WIKFnXTgh?usp=sharing). Place the downloaded materials along with other files.
 
 - To reproduce Pseudo-Edge w/GCN performance on OGBL-COLLAB, run the following script:
 ```
