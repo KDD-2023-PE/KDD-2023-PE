@@ -6,10 +6,9 @@ virtualenv pevenv --python=python3.8
 ```
 - Install required packages
 ```
-cd pseudo_edge
 pip install -r requirements.txt
 ```
-- Create following folders:
+- Create following folders to store models:
 ```
 mkdir best_model
 mkdir best_pl_model
